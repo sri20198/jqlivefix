@@ -1,0 +1,9 @@
+name = jQuery Live Fix
+description = "Fixes jQuery to replace .live() with .on() in jQuery ver 1.10 and above"
+core = 7.x
+
+package = Custom
+
+dependencies[] = jquery_update
+
+scripts[] = jqlivefix.js
